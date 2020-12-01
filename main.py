@@ -20,7 +20,7 @@ x,y = 1222, 866 # x and y values for internet unavailable message
 # moving mouse to required position
 pyautogui.moveTo(x,y)
 
-time.sleep(1)
+time.sleep(3)
 
 # getting colors of required portion
 rgb = pyautogui.screenshot().getpixel((x,y))
